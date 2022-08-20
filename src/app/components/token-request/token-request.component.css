@@ -1,0 +1,10 @@
+.tokenButton {
+    height: 50px;
+    margin: 100px auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

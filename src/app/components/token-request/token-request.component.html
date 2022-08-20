@@ -1,0 +1,15 @@
+<!-- <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+    <label for="username" id="usernameL">Username</label><br>
+    <input type="text" name="username" id="username" formControlName = "username"> <br><br>
+
+    <label for="password" id="passwordL">Password</label> <br>
+    <input type="text" name="password" id="password" formControlName = "password"> <br><br>
+
+
+    <button type="submit">Login</button>
+</form> -->
+
+<div class="container">
+    <button class="tokenButton" [disabled]="tokenRequestRaised" (click)="generateToken()">Generate token</button>
+</div>
